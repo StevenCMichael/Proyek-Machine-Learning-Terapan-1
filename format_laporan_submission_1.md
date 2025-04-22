@@ -49,15 +49,20 @@ Selanjutnya uraikanlah seluruh variabel atau fitur pada data. Sebagai contoh:
 - luas_bangunan: Luas bangunan dalam meter persegi.
 
 **Rubrik/Kriteria Tambahan (Opsional)**:
-- Melakukan beberapa tahapan yang diperlukan untuk memahami data, contohnya teknik visualisasi data atau exploratory data analysis.
 - Heatmap untuk korelasi antar fitur.
   ![Image](https://github.com/user-attachments/assets/caa21a39-fd87-4e08-b61d-80b48d229049)
   
 - Scatter plot antara harga dan setiap fitur.
   ![Image](https://github.com/user-attachments/assets/36888206-be76-4d19-9c75-ddc0b5609f7a)
-  
+  ![Image](https://github.com/user-attachments/assets/fc579bae-bdf5-490e-ac7e-e8900d523739)
+
+  dan masih banyak lagi visualisasi scatter plot di notebook
 - Rata-rata dan median harga berdasarkan jumlah kamar tidur dan kamar mandi.
-- Rata-rata fitur berdasarkan segmentasi harga (dibagi 3 kuartil).
+  ![Image](https://github.com/user-attachments/assets/a4d36205-69c2-4848-8f80-dd126a332ced)
+  
+  
+- Rata-rata fitur berdasarkan segmentasi harga (dibagi 3).
+  ![Image](https://github.com/user-attachments/assets/84bd1cfa-6a59-437d-939f-387933253bc3)
 
 ## Data Preparation
 
