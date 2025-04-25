@@ -90,7 +90,10 @@ Tahapan data preparation dilakukan untuk memastikan bahwa data dalam kondisi sia
 
 4. Pembersihan Data:
 - Menghapus entri dengan nilai null agar menjaga kualitas data tersisa dan mencegah bias prediksi.
-- Mengonfirmasi tidak ada duplikasi yang untuk mencegah pembelajaran berulang dari data yang sama. 
+- Mengonfirmasi tidak ada duplikasi yang untuk mencegah pembelajaran berulang dari data yang sama.
+
+5. Menghapus rating 0
+- Rating 0 bukan berarti pengguna tidak menyukai buku tersebut namun pengguna tidak me-review buku tersebut sehingga jika rating 0 dianggap sebagai input yang sah, model bisa belajar dari noise, yakni data yang sebenarnya tidak memiliki makna evaluatif. Ini bisa membuat sistem rekomendasi merekomendasikan buku yang sebenarnya tidak pernah dinilai secara jujur oleh pengguna.
 
 5. Filter Buku Populer:
 - Memilih 150 buku dengan jumlah rating terbanyak agar proses pelatihan model tidak memakan memori berlebih. Ini juga membantu dalam menyaring item-item yang memang populer secara umum.
@@ -125,16 +128,16 @@ Kekurangan:
 - Performa cenderung menurun bila data sangat sparse (banyak rating nol).
 
 Top 10 rekomendasi buku berdasarkan model RecommenderNet
-1. Harry Potter and the Sorcerer's Stone (Book 1)          
-2. Harry Potter and the Goblet of Fire (Book 4)          
-3. Harry Potter and the Order of the Phoenix (Boo...     
-4. Harry Potter and the Prisoner of Azkaban (Book 3)     
-5. Harry Potter and the Sorcerer's Stone (Harry P...     
-6. To Kill a Mockingbird         
-7. Harry Potter and the Chamber of Secrets (Book 2)      
-8. The Fellowship of the Ring (The Lord of the Ri...     
-9. The Hobbit : The Enchanting Prelude to The Lor...
-10. Fahrenheit 451     
+1. The Two Towers (The Lord of the Rings, Part 2)  
+2. To Kill a Mockingbird  
+3. Harry Potter and the Sorcerer's Stone (Book 1)  
+4. Harry Potter and the Goblet of Fire (Book 4)  
+5. Harry Potter and the Order of the Phoenix (Book 5)  
+6. The Hobbit : The Enchanting Prelude to The Lord of the Rings  
+7. Ender's Game (Ender Wiggins Saga (Paperback))  
+8. Harry Potter and the Chamber of Secrets (Book 2)  
+9. Harry Potter and the Prisoner of Azkaban (Book 3)  
+10. Harry Potter and the Sorcerer's Stone (Harry Potter (Paperback))  
 
 2. Neural Collaborative Filtering (NCF)
 
@@ -154,16 +157,16 @@ Kekurangan:
 - Risiko overfitting lebih tinggi, terutama pada dataset kecil atau tidak seimbang.
 
 Top 10 rekomendasi buku berdasarkan model NCF
-1. Harry Potter and the Order of the Phoenix (Boo...          
-2. The Hobbit : The Enchanting Prelude to The Lor...          
-3. Harry Potter and the Goblet of Fire (Book 4)         
-4. ANGELA'S ASHES         
-5. Angels &amp; Demons    
-6. To Kill a Mockingbird  
-7. Harry Potter and the Sorcerer's Stone (Book 1)          
-8. Nickel and Dimed: On (Not) Getting By in America        
-9. The Lovely Bones: A Novel          
-10. The Vampire Lestat (Vampire Chronicles, Book II)  
+1. To Kill a Mockingbird  
+2. Harry Potter and the Prisoner of Azkaban (Book 3)  
+3. The Color Purple  
+4. Brave New World  
+5. A Prayer for Owen Meany  
+6. Harry Potter and the Sorcerer's Stone (Harry Potter (Paperback))  
+7. The Two Towers (The Lord of the Rings, Part 2)  
+8. Ender's Game (Ender Wiggins Saga (Paperback))  
+9. Watership Down  
+10. Suzanne's Diary for Nicholas  
 
 ## Evaluation
 
@@ -176,14 +179,16 @@ Pada projek ini, model dievaluasi menggunakan RMSE (Root Mean Squared Error). RM
 Contoh ara penggunaan RMSE
 
 1. RecommenderNet
--Training RMSE: 0.3056
-- Validation RMSE: 0.3839
+-Training RMSE: 0.1340
+- Validation RMSE: 0.1904
+
+
 
 Model RecommenderNet menunjukkan performa yang cukup stabil dengan perbedaan kecil antara error training dan validasi. Ini menunjukkan generalisasi yang baik meskipun model cukup sederhana.
 
 2. Neural Collaborative Filtering (NCF)
-- Training RMSE: 0.1052
-- Validation RMSE: 0.4603
+- Training RMSE: 0.0432
+- Validation RMSE: 0.2053
 
 Meskipun model NCF mencapai RMSE training yang sangat rendah, nilai RMSE validasinya justru lebih tinggi dibanding RecommenderNet. Ini bisa menjadi indikasi awal adanya overfitting, di mana model belajar terlalu baik pada data latih tetapi kurang mampu menggeneralisasi pada data baru. Kesimpulannya adalah RecommenderNet lebih stabil dan cenderung lebih aman digunakan dalam konteks produksi atau real-user, karena error-nya lebih konsisten.
 
