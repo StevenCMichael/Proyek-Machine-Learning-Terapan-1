@@ -165,6 +165,13 @@ Kekurangan:
 
 ## Evaluation
 
+Pada projek ini, model dievaluasi menggunakan RMSE (Root Mean Squared Error). RMSE (Root Mean Squared Error) adalah akar kuadrat dari rata-rata kuadrat selisih prediksi dan aktual.
+
+- RMSE
+  ![Image](https://github.com/user-attachments/assets/1929606c-571f-4a64-a8be-eb0f737cf188)
+
+Contoh ara penggunaan RMSE
+
 1. RecommenderNet
 -Training RMSE: 0.3056
 - Validation RMSE: 0.3839
