@@ -207,4 +207,4 @@ Error Rumah 1 = 500−520=−20 juta
 Error Rumah 2 = 600−580=20 juta
 Error Rumah 3 = 700−750=−50 juta
 
-2. RMSE = akar dari
+2. RMSE = akar dari ( (- 20)^2 + (20)^2 + (-50)^2 ) / 3 = akar dari 3300 / 3 = 1100
