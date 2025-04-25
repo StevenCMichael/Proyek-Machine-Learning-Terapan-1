@@ -194,8 +194,7 @@ Model RecommenderNet menunjukkan performa yang cukup stabil dengan perbedaan kec
 
 Meskipun model NCF mencapai RMSE training yang sangat rendah, nilai RMSE validasinya justru lebih tinggi dibanding RecommenderNet. Ini bisa menjadi indikasi awal adanya overfitting, di mana model belajar terlalu baik pada data latih tetapi kurang mampu menggeneralisasi pada data baru. Kesimpulannya adalah RecommenderNet lebih stabil dan cenderung lebih aman digunakan dalam konteks produksi atau real-user, karena error-nya lebih konsisten.
 
-Ingatlah, metrik evaluasi yang digunakan harus sesuai dengan konteks data, problem statement, dan solusi yang diinginkan.
-
+### Contoh RMSE
 Misalkan terdapat data sebagai berikut
 
 ![Image](https://github.com/user-attachments/assets/320b67ed-b43c-4937-bb44-3f21177da9ae)
