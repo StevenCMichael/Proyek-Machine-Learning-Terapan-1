@@ -10,11 +10,11 @@ Industri penerbitan dan platform distribusi buku digital kini semakin bergantung
 
 Proyek ini bertujuan untuk mengembangkan sistem rekomendasi buku berbasis collaborative filtering yang mampu menyarankan buku-buku yang belum pernah dibaca namun kemungkinan besar disukai oleh pengguna, berdasarkan riwayat rating pengguna lain yang memiliki pola preferensi serupa. Dengan sistem ini, pengalaman pengguna dalam menjelajahi buku akan menjadi lebih personal, efisien, dan memuaskan.
 
-**Rubrik/Kriteria Tambahan (Opsional)**:
-- Jelaskan mengapa proyek ini penting untuk diselesaikan.
-- Menyertakan hasil riset terkait atau referensi. Referensi yang diberikan harus berasal dari sumber yang kredibel dan author yang jelas.
-  
-  Format Referensi: [Judul Referensi](https://scholar.google.com/) 
+Berikut adalah penelitan terdahulu yang menjadi referensi projek ini
+- Razali, N.N.N., & Idrus, Z. (2024). Intelligence Book Recommendation System Using Collaborative Filtering. 5th International Conference on Information Technology and Security. 
+- Mathew, P., Kuriakose, B., & Hegde, V. (2016). Book Recommendation System through Content Based and Collaborative Filtering Method. International Conference on Data Mining and Advanced Computing.
+- Khalifeh, S., & Al-mousa, A. (2021). A Book Recommender System Using Collaborative Filtering Method. International Conference on Data Science, E-learning and Information Systems.
+- Lutan, E.R., & Bădică, C. (2024). Literature Books Recommender System Using Collaborative Filtering and Multi-Source Reviews. 19th Conference on Computer Science and Intelligence Systems.
 
 ## Business Understanding
 
@@ -35,9 +35,9 @@ Menjelaskan tujuan proyek yang menjawab pernyataan masalah:
 - Menghasilkan daftar rekomendasi buku yang relevan, dengan mempertimbangkan kemiripan preferensi pengguna lain.
  
 
-    ### Solution statements
-    - Mengajukan 2 solution approach yaitu model RecommenderNet dan NCF.
-    - Membangdingkan kedua model menggunakan metrik RMSE dan memilih model yang terbaik
+### Solution statements
+- Mengajukan 2 solution approach yaitu model RecommenderNet dan NCF.
+- Membangdingkan kedua model menggunakan metrik RMSE dan memilih model yang terbaik
 
 ## Data Understanding
 Dataset yang digunakan dalam proyek ini bersumber dari [Kaggle Book Recommendation Dataset](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset), yang terdiri dari tiga tabel utama: books.csv, ratings.csv, dan users.csv. Namun, untuk keperluan proyek ini, hanya tabel books dan ratings yang digunakan.
