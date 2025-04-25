@@ -182,13 +182,15 @@ Contoh ara penggunaan RMSE
 -Training RMSE: 0.1340
 - Validation RMSE: 0.1904
 
-
+![Image](https://github.com/user-attachments/assets/34d4b5a7-b83c-4529-a612-5f17fd5c56d7)
 
 Model RecommenderNet menunjukkan performa yang cukup stabil dengan perbedaan kecil antara error training dan validasi. Ini menunjukkan generalisasi yang baik meskipun model cukup sederhana.
 
 2. Neural Collaborative Filtering (NCF)
 - Training RMSE: 0.0432
 - Validation RMSE: 0.2053
+
+![Image](https://github.com/user-attachments/assets/f2e1f402-e913-40d2-b184-3a57891ebb2a)
 
 Meskipun model NCF mencapai RMSE training yang sangat rendah, nilai RMSE validasinya justru lebih tinggi dibanding RecommenderNet. Ini bisa menjadi indikasi awal adanya overfitting, di mana model belajar terlalu baik pada data latih tetapi kurang mampu menggeneralisasi pada data baru. Kesimpulannya adalah RecommenderNet lebih stabil dan cenderung lebih aman digunakan dalam konteks produksi atau real-user, karena error-nya lebih konsisten.
 
@@ -205,10 +207,4 @@ Error Rumah 1 = 500−520=−20 juta
 Error Rumah 2 = 600−580=20 juta
 Error Rumah 3 = 700−750=−50 juta
 
-2. RMSE = akar dari ( (- 20)^2 + (20)^2 + (-50)^2 ) / 3 = akar dari  3300 / 3 =  akar dari 1100 = 33,17
-
-**---Ini adalah bagian akhir laporan---**
-
-_Catatan:_
-- _Anda dapat menambahkan gambar, kode, atau tabel ke dalam laporan jika diperlukan. Temukan caranya pada contoh dokumen markdown di situs editor [Dillinger](https://dillinger.io/), [Github Guides: Mastering markdown](https://guides.github.com/features/mastering-markdown/), atau sumber lain di internet. Semangat!_
-- Jika terdapat penjelasan yang harus menyertakan code snippet, tuliskan dengan sewajarnya. Tidak perlu menuliskan keseluruhan kode project, cukup bagian yang ingin dijelaskan saja.
+2. RMSE = akar dari
