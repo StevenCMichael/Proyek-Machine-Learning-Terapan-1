@@ -153,7 +153,7 @@ Kekurangan:
 - Lebih lambat dalam proses pelatihan dibanding model sederhana seperti RecommenderNet.
 - Risiko overfitting lebih tinggi, terutama pada dataset kecil atau tidak seimbang.
 
-
+Top 10 rekomendasi buku berdasarkan model NCF
 1. Harry Potter and the Order of the Phoenix (Boo...          
 2. The Hobbit : The Enchanting Prelude to The Lor...          
 3. Harry Potter and the Goblet of Fire (Book 4)         
