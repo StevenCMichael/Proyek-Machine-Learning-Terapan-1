@@ -59,11 +59,13 @@ Kondisi Data:
   
 Eksplatory Data
 - Top 10 Author dengan buku terbanyak
+  
 ![Image](https://github.com/user-attachments/assets/64722f7c-63a0-4c9a-97d6-47be21529921)
 
 Penulis dengan jumlah buku terbanyak di dataset ini antara lain Agatha Christie (632 buku) dan William Shakespeare (567 buku).
 
 - Top 10 Publisher dengan buku terbanyak
+  
 ![Image](https://github.com/user-attachments/assets/898a6750-e87b-4499-ac8a-875f1d2e8d85)
 
 Publisher dengan jumlah buku terbanyak di dataset ini antara lain Harlequin (7535 buku) dan Silhouette (4220 buku).
@@ -168,6 +170,7 @@ Kekurangan:
 Pada projek ini, model dievaluasi menggunakan RMSE (Root Mean Squared Error). RMSE (Root Mean Squared Error) adalah akar kuadrat dari rata-rata kuadrat selisih prediksi dan aktual.
 
 - RMSE
+  
   ![Image](https://github.com/user-attachments/assets/1929606c-571f-4a64-a8be-eb0f737cf188)
 
 Contoh ara penggunaan RMSE
@@ -186,8 +189,18 @@ Meskipun model NCF mencapai RMSE training yang sangat rendah, nilai RMSE validas
 
 Ingatlah, metrik evaluasi yang digunakan harus sesuai dengan konteks data, problem statement, dan solusi yang diinginkan.
 
-**Rubrik/Kriteria Tambahan (Opsional)**: 
-- Menjelaskan formula metrik dan bagaimana metrik tersebut bekerja.
+Misalkan terdapat data sebagai berikut
+
+![Image](https://github.com/user-attachments/assets/320b67ed-b43c-4937-bb44-3f21177da9ae)
+
+Langkah-langkah Perhitungan
+1. Hitung selisih (error) untuk tiap rumah:
+
+Error Rumah 1 = 500−520=−20 juta
+Error Rumah 2 = 600−580=20 juta
+Error Rumah 3 = 700−750=−50 juta
+
+2. RMSE = akar dari ( (- 20)^2 + (20)^2 + (-50)^2 ) / 3 = akar dari  3300 / 3 =  akar dari 1100 = 33,17
 
 **---Ini adalah bagian akhir laporan---**
 
