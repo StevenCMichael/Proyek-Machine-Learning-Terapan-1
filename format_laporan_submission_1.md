@@ -61,6 +61,8 @@ Dataset yang digunakan adalah data harga rumah di wilayah Bandar Lampung
 - Heatmap untuk korelasi antar fitur.
   
   ![Image](https://github.com/user-attachments/assets/caa21a39-fd87-4e08-b61d-80b48d229049)
+
+  Dapat dilihat kolom yang paling berkorelasi adalah luas_bangunan dengan harga. Dan kolom yang paling tidak berkorelasi adalah kolom kamar_mandi dan luas_tanah
   
 - Scatter plot antara harga dan setiap fitur.
   
