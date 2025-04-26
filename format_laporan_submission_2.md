@@ -18,22 +18,13 @@ Berikut adalah penelitan terdahulu yang menjadi referensi projek ini
 
 ## Business Understanding
 
-Pada bagian ini, Anda perlu menjelaskan proses klarifikasi masalah.
-
-Bagian laporan ini mencakup:
-
 ### Problem Statements
-
-Menjelaskan pernyataan masalah:
-- Bagaimana cara mengidentifikasi preferensi pengguna terhadap buku berdasarkan data rating?
-- Bagaimana memprediksi buku mana yang kemungkinan besar akan disukai oleh pengguna namun belum pernah dibaca?
+- Bagaimana cara membangun model prediksi rating buku yang akurat untuk meningkatkan kualitas sistem rekomendasi buku kepada pengguna?
 
 ### Goals
+- Membangun model prediksi rating buku dengan error minimal.
+- Menghasilkan model prediksi rating buku dengan nilai RMSE serendah mungkin (idealnya di bawah 0,3).
 
-Menjelaskan tujuan proyek yang menjawab pernyataan masalah:
-- Menggunakan data rating pengguna untuk membangun profil preferensi yang merepresentasikan minat bacaan mereka.
-- Menghasilkan daftar rekomendasi buku yang relevan, dengan mempertimbangkan kemiripan preferensi pengguna lain.
- 
 
 ### Solution statements
 - Mengajukan 2 solution approach yaitu model RecommenderNet dan NCF.
@@ -250,3 +241,5 @@ Model RecommenderNet menunjukkan performa yang cukup stabil dengan perbedaan kec
 
 Meskipun model NCF mencapai RMSE training yang sangat rendah, nilai RMSE validasinya justru lebih tinggi dibanding RecommenderNet. Ini bisa menjadi indikasi awal adanya overfitting, di mana model belajar terlalu baik pada data latih tetapi kurang mampu menggeneralisasi pada data baru. Kesimpulannya adalah RecommenderNet lebih stabil dan cenderung lebih aman digunakan dalam konteks produksi atau real-user, karena error-nya lebih konsisten.
 
+#### Evaluasi dan hubungan Business Understanding
+Nilai ini menunjukkan bahwa model memiliki tingkat error yang cukup rendah dalam memprediksi rating buku, sehingga mampu menjawab problem statement yaitu meningkatkan relevansi rekomendasi buku. Pencapaian nilai RMSE ini juga memenuhi goal awal proyek yaitu dibawah 0,3, sehingga model prediksi cukup akurat untuk meningkatkan pengalaman pengguna. Dengan model ini,  sistem rekomendasi dapat memberikan saran buku yang lebih relevan, yang pada akhirnya meningkatkan engagement pengguna.
