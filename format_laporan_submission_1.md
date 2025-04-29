@@ -86,8 +86,8 @@ Dataset yang digunakan adalah data harga rumah di wilayah Bandar Lampung
 1. Menghapus data duplikat, agar tidak terjadi bias akibat pengulangan data.
 2. Menghapus data null, untuk menghindari error saat training model dan menjaga integritas hasil
 3. Menghapus outlier, untuk menghindari ekstrem yang dapat mempengaruhi rata-rata dan distribusi data secara keseluruhan.
-4. Melakukan Train-Test Split (80:20), untuk mengevaluasi model secara objektif tanpa overfitting.
-5. Melakukan Standarisasi fitur numerik, agar fitur numerik seperti luas tanah dan bangunan akan distandarisasi agar memiliki skala yang seragam
+4. Melakukan Standarisasi fitur numerik, agar fitur numerik seperti luas tanah dan bangunan akan distandarisasi agar memiliki skala yang seragam
+5. Melakukan Train-Test Split (80:20), untuk mengevaluasi model secara objektif tanpa overfitting.
 
 ### **Alasan Data Preparation**
 - Konsistensi dan akurasi, pembersihan data membantu meningkatkan keandalan input model dan menghindari noise yang tidak perlu.
@@ -157,6 +157,7 @@ Rumus Metrik Evaluasi
 ### Cara kerja dengan contoh
 
 Misalkan terdapat data sebagai berikut
+
 ![Image](https://github.com/user-attachments/assets/320b67ed-b43c-4937-bb44-3f21177da9ae)
 
 Langkah-langkah Perhitungan
@@ -172,7 +173,7 @@ RMSE = akar dari mse = akar dari 1100 = 33,17
 
 ### Perbandingan model machine learning berdaasarkan MAE, MSE dan RMSE
 
-![Image](https://github.com/user-attachments/assets/3c050c6a-53a7-40a3-954a-4a2eb31d4dfa)
+![Image](https://github.com/user-attachments/assets/869aa6a4-f5cc-4b1e-8f81-5002ec59bbbc)
 
 Dapat dilihat bahwa
 - Gradient Boosting Regressor memiliki nilai MSE dan RMSE paling kecil di antara semua model.
