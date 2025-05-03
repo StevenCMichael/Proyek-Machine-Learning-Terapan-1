@@ -4,17 +4,15 @@
 
 Meningkatnya jumlah buku yang tersedia secara daring telah memberikan keuntungan besar bagi para pembaca, namun juga memunculkan tantangan dalam memilih buku yang benar-benar sesuai dengan minat individu. Dalam konteks ini, sistem rekomendasi menjadi alat penting yang mampu membantu pengguna menemukan bacaan yang relevan dan menarik. Salah satu pendekatan yang terbukti efektif dalam pengembangan sistem rekomendasi adalah collaborative filtering, sebuah teknik yang memanfaatkan kesamaan pola perilaku antar pengguna untuk memprediksi preferensi mereka di masa depan. 
 
-Collaborative learning adalah metode pembelajaran yang menekankan kerja sama antar peserta didik dalam kelompok untuk memecahkan masalah, menyelesaikan tugas, atau menciptakan suatu produk. Dalam proses ini, peserta didik ditantang secara emosional dan sosial untuk mendengarkan perspektif yang berbeda, mengartikulasikan, serta membela gagasan mereka. Collaborative learning mendorong siswa untuk saling menerima opini dan saran, sehingga mampu memecahkan permasalahan bersama dan menjalin komunikasi yang baik serta saling menghargai selama pembelajaran berlangsung [1]. Model ini digambarkan sebagai pengajaran di mana siswa bekerja sama dalam kelompok kecil untuk mencapai tujuan bersama, mendorong keterlibatan aktif semua anggota kelompok [2].
+Collaborative filtering adalah teknik prediksi dalam sistem rekomendasi yang melakukan proses penyaringan atau evaluasi item menggunakan pendapat atau preferensi pengguna lain. Metode ini membangun basis data preferensi pengguna terhadap item, lalu mencocokkan pengguna dengan minat dan preferensi yang relevan melalui perhitungan kesamaan antar profil untuk menghasilkan rekomendasi [1](https://journal.untar.ac.id/index.php/jiksi/article/download/25999/15656/75356). Tujuan utama collaborative filtering adalah untuk merekomendasikan produk atau layanan kepada pengguna berdasarkan preferensi dan riwayat interaksi pengguna lain yang serupa. Dengan demikian, pengguna dapat memperoleh rekomendasi item yang relevan dan sesuai dengan minat mereka, meskipun belum pernah berinteraksi langsung dengan item tersebut sebelumnya [2](https://tunasbangsa.ac.id/ejurnal/index.php/jsakti/article/download/706/681).
 
 ### Mengapa Proyek Ini Penting?
-
-Industri penerbitan dan platform distribusi buku digital kini semakin bergantung pada personalisasi untuk mempertahankan pengguna dan meningkatkan engagement. Sistem rekomendasi yang akurat bukan hanya meningkatkan kepuasan pengguna, tetapi juga dapat mendorong penjualan dan loyalitas pelanggan. Tanpa sistem seperti ini, pengguna dapat merasa kewalahan oleh banyaknya pilihan, yang pada akhirnya bisa menurunkan minat baca.
 
 Proyek ini bertujuan untuk mengembangkan sistem rekomendasi buku berbasis collaborative filtering yang mampu menyarankan buku-buku yang belum pernah dibaca namun kemungkinan besar disukai oleh pengguna, berdasarkan riwayat rating pengguna lain yang memiliki pola preferensi serupa. Dengan sistem ini, pengalaman pengguna dalam menjelajahi buku akan menjadi lebih personal, efisien, dan memuaskan.
 
 Berikut adalah penelitan terdahulu yang menjadi referensi projek ini
-[1] Barkley, C., Barkley, E. F., Cross, K. P., & Major, C. H. (2005). Collaborative learning techniques: A handbook for college faculty. San Francisco, CA: Jossey Bass.
-[2] Laal, M., & Ghodsi, S. M. (2012). Benefits of collaborative learning. *Procedia - Social and Behavioral Sciences*, 31, 486–490.
+[1] [Muharram, R. M. (2022). Implementasi metode collaborative filtering based untuk sistem rekomendasi buku non fiksi. Jurnal Ilmu Komputer dan Sistem Informasi, 8(2), 1–12.](https://journal.untar.ac.id/index.php/jiksi/article/download/25999/15656/75356)
+[2] [Tambunan, H. A. (2023). Sistem rekomendasi collaborative filtering sebagai upaya meningkatkan penjualan produk. Jurnal Sains Komputer & Informatika (J-SAKTI), 7(2), 1040–1054.](https://tunasbangsa.ac.id/ejurnal/index.php/jsakti/article/download/706/681)
 
 ## Business Understanding
 
