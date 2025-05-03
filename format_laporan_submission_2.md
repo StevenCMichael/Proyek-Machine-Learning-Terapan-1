@@ -11,8 +11,8 @@ Collaborative filtering adalah teknik prediksi dalam sistem rekomendasi yang mel
 Proyek ini bertujuan untuk mengembangkan sistem rekomendasi buku berbasis collaborative filtering yang mampu menyarankan buku-buku yang belum pernah dibaca namun kemungkinan besar disukai oleh pengguna, berdasarkan riwayat rating pengguna lain yang memiliki pola preferensi serupa. Dengan sistem ini, pengalaman pengguna dalam menjelajahi buku akan menjadi lebih personal, efisien, dan memuaskan.
 
 Berikut adalah penelitan terdahulu yang menjadi referensi projek ini
-[1] [Muharram, R. M. (2022). Implementasi metode collaborative filtering based untuk sistem rekomendasi buku non fiksi. Jurnal Ilmu Komputer dan Sistem Informasi, 8(2), 1–12.](https://journal.untar.ac.id/index.php/jiksi/article/download/25999/15656/75356)
-[2] [Tambunan, H. A. (2023). Sistem rekomendasi collaborative filtering sebagai upaya meningkatkan penjualan produk. Jurnal Sains Komputer & Informatika (J-SAKTI), 7(2), 1040–1054.](https://tunasbangsa.ac.id/ejurnal/index.php/jsakti/article/download/706/681)
+- [1] [Muharram, R. M. (2022). Implementasi metode collaborative filtering based untuk sistem rekomendasi buku non fiksi. Jurnal Ilmu Komputer dan Sistem Informasi, 8(2), 1–12.](https://journal.untar.ac.id/index.php/jiksi/article/download/25999/15656/75356)
+- [2] [Tambunan, H. A. (2023). Sistem rekomendasi collaborative filtering sebagai upaya meningkatkan penjualan produk. Jurnal Sains Komputer & Informatika (J-SAKTI), 7(2), 1040–1054.](https://tunasbangsa.ac.id/ejurnal/index.php/jsakti/article/download/706/681)
 
 ## Business Understanding
 
