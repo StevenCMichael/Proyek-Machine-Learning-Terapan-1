@@ -26,6 +26,8 @@ Setup environment:
 
 Jelaskan tentang business dashboard yang telah dibuat. Jika ada, sertakan juga link untuk mengakses dashboard tersebut.
 
+https://lookerstudio.google.com/s/s0cTuODSUVo
+
 ## Conclusion
 
 Jelaskan konklusi dari proyek yang dikerjakan.
