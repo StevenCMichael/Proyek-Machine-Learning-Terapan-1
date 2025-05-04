@@ -20,16 +20,21 @@ Beberapa permasalahan bisnis yang ingin diselesaikan dalam proyek ini meliputi:
 ### Cakupan Proyek
 
 Proyek ini dirancang untuk menjawab kebutuhan manajer HR dalam memetakan dan memprediksi risiko attrition karyawan menggunakan pendekatan machine learning. Ruang lingkupnya mencakup:
+
 1. Analisis Data Historis Karyawan
+   
 Menggunakan data internal yang telah disediakan oleh perusahaan, proses ini akan membantu menemukan pola-pola yang tersembunyi terkait perilaku dan karakteristik karyawan yang keluar.
 
 2. Pemodelan Prediktif
+   
 Mengembangkan model machine learning yang mampu memprediksi apakah seorang karyawan berisiko keluar atau tidak, berdasarkan enam variabel utama yang dipilih dari hasil evaluasi feature importance.
 
 3. Pembuatan Business Dashboard
+
 Dashboard interaktif akan dikembangkan sebagai alat bantu visualisasi bagi tim HR untuk memonitor indikator-indikator utama secara real time. Tujuannya bukan hanya untuk melihat tren, tapi juga untuk mendeteksi potensi masalah sebelum terjadi.
 
 4. Penyusunan Rekomendasi Strategis
+
 Berdasarkan temuan model dan dashboard, proyek ini juga menyertakan rekomendasi konkret yang bisa diimplementasikan oleh perusahaan untuk meningkatkan retensi karyawan ke depannya.
 
 ### Persiapan
@@ -87,6 +92,7 @@ Berikan beberapa rekomendasi action items yang harus dilakukan perusahaan guna m
 Berdasarkan hasil analisis dan dashboard yang telah dibuat, berikut beberapa langkah strategis yang bisa diambil Jaya Jaya Maju untuk menekan angka attrition dan menciptakan lingkungan kerja yang lebih sehat serta berkelanjutan:
 
 1. Tinjau dan Kelola Ulang Pola Lembur Karyawan
+
 Salah satu temuan paling mencolok adalah tingginya tingkat attrition pada karyawan yang rutin bekerja lembur. Hal ini tidak hanya mengindikasikan ketidakseimbangan beban kerja, tapi juga potensi kelelahan mental. Perusahaan perlu:
   - Membatasi jam lembur mingguan secara ketat.
   - Memberikan cuti tambahan bagi karyawan yang secara konsisten lembur.
@@ -101,16 +107,19 @@ Karyawan dengan stock option level dan job level rendah cenderung merasa tidak c
   - Menciptakan sistem feedback dua arah agar karyawan merasa didengar.
 
 3. Tingkatkan Kepuasan terhadap Lingkungan dan Budaya Kerja
+
 Data menunjukkan bahwa lingkungan kerja yang kurang memuaskan menjadi salah satu pemicu utama attrition. Di luar faktor fisik, hal ini juga bisa mencerminkan budaya internal yang kurang suportif. Beberapa hal yang bisa dipertimbangkan:
   - Lakukan audit lingkungan kerja secara menyeluruh (fisik maupun psikologis).
   - Fasilitasi program diskusi terbuka antar tim dan departemen.
   - Bentuk tim budaya kerja yang bertugas menjaga semangat kolaboratif dan inklusif.
 
 4. Rancang Program Pengembangan Karier yang Jelas dan Terukur
+
 Karyawan, terutama yang masih di awal masa kerja, cenderung memiliki ekspektasi besar terhadap perkembangan karier. Ketika harapan ini tidak dikelola, mereka akan mudah tergoda untuk berpindah. Perusahaan sebaiknya:
   - Merancang jalur karier yang transparan sejak proses onboarding.
   - Menawarkan program mentoring bagi karyawan baru.
   - Menyediakan akses pelatihan teknis dan soft skill berbasis kebutuhan individu.
 
 5. Lakukan Survei Kepuasan dan Exit Interview Secara Rutin
+
 Daripada hanya berspekulasi, mendengarkan langsung suara karyawan adalah langkah terbaik. Survei berkala dan exit interview akan membantu perusahaan memahami tren yang muncul dan melakukan intervensi lebih cepat.
