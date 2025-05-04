@@ -122,4 +122,4 @@ Karyawan, terutama yang masih di awal masa kerja, cenderung memiliki ekspektasi 
 
 5. Lakukan Survei Kepuasan dan Exit Interview Secara Rutin
 
-Daripada hanya berspekulasi, mendengarkan langsung suara karyawan adalah langkah terbaik. Survei berkala dan exit interview akan membantu perusahaan memahami tren yang muncul dan melakukan intervensi lebih cepat.
+Melakukan survei berkala dan exit interview akan membantu perusahaan memahami tren yang muncul dan melakukan intervensi lebih cepat.
