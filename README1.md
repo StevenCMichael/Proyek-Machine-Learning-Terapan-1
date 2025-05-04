@@ -79,7 +79,7 @@ Dashboard ini dirancang agar intuitif digunakan oleh manajer non-teknis, sehingg
 
 ## Conclusion
 
-Melalui analisis data dan pengembangan model prediktif, proyek ini berhasil mengidentifikasi faktor-faktor utama yang memengaruhi tingkat attrition karyawan di Jaya Jaya Maju. Dari berbagai algoritma yang diuji, model Random Forest menunjukkan performa terbaik. Meskipun selisihnya relatif kecil dibandingkan Gradient Boosting dan XGBoost. Random Forest unggul dalam hal akurasi, presisi, dan F1-Score, serta menghasilkan jumlah false negative yang rendah—sebuah aspek penting dalam konteks prediksi attrition.
+Melalui analisis data dan pengembangan model prediktif, proyek ini berhasil mengidentifikasi faktor-faktor utama yang memengaruhi tingkat attrition karyawan di Jaya Jaya Maju. Dari berbagai algoritma yang diuji, model Random Forest menunjukkan performa terbaik. Meskipun selisihnya relatif kecil dibandingkan Gradient Boosting dan XGBoost. Random Forest unggul dalam hal akurasi, presisi, dan F1-Score. Serta menghasilkan jumlah false negative yang rendah, sebuah aspek penting dalam konteks prediksi attrition.
 
 Faktor-faktor yang paling berpengaruh terhadap attrition meliputi aspek lembur, level opsi saham, level pekerjaan, kepuasan terhadap lingkungan dan pekerjaan, serta total pengalaman kerja. Temuan ini diperkuat dengan visualisasi dalam dashboard, yang menunjukkan tren serupa yaitu karyawan dengan beban kerja berat, kepuasan rendah, dan pengalaman kerja yang sedikit lebih berisiko untuk resign.
 
