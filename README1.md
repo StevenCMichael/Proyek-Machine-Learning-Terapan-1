@@ -104,13 +104,11 @@ Salah satu temuan paling mencolok adalah tingginya tingkat attrition pada karyaw
 Karyawan dengan stock option level dan job level rendah cenderung merasa tidak cukup dihargai. Untuk mengatasi ini, perusahaan bisa:
   - Menawarkan insentif non-finansial seperti pengakuan publik atau kesempatan pelatihan.
   - Memberikan opsi saham atau bonus tahunan sebagai bentuk apresiasi kontribusi.
-  - Menciptakan sistem feedback dua arah agar karyawan merasa didengar.
 
 3. Tingkatkan Kepuasan terhadap Lingkungan dan Budaya Kerja
 
 Data menunjukkan bahwa lingkungan kerja yang kurang memuaskan menjadi salah satu pemicu utama attrition. Di luar faktor fisik, hal ini juga bisa mencerminkan budaya internal yang kurang suportif. Beberapa hal yang bisa dipertimbangkan:
-  - Lakukan audit lingkungan kerja secara menyeluruh (fisik maupun psikologis).
-  - Fasilitasi program diskusi terbuka antar tim dan departemen.
+  - Lakukan audit lingkungan kerja secara menyeluruh (fisik maupun psikologis)..
   - Bentuk tim budaya kerja yang bertugas menjaga semangat kolaboratif dan inklusif.
 
 4. Rancang Program Pengembangan Karier yang Jelas dan Terukur
