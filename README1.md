@@ -97,7 +97,6 @@ Salah satu temuan paling mencolok adalah tingginya tingkat attrition pada karyaw
   - Membatasi jam lembur mingguan secara ketat.
   - Memberikan cuti tambahan bagi karyawan yang secara konsisten lembur.
   - Melakukan monitoring dan evaluasi berkala pada divisi dengan tingkat lembur tertinggi.
-  - Mengedukasi manajer agar lebih peka terhadap tanda-tanda burnout di tim mereka.
 
 2. Perbaiki Skema Kompensasi dan Penghargaan Karyawan Level Awal
 
