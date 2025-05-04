@@ -2,7 +2,7 @@
 
 ## Business Understanding
 
-Jaya Jaya Maju adalah perusahaan multinasional yang telah berdiri sejak tahun 2000 dan kini memiliki lebih dari seribu karyawan yang tersebar di berbagai wilayah Indonesia. Sebagai perusahaan yang sudah mapan, Jaya Jaya Maju memiliki struktur organisasi yang kompleks dan dinamis. Namun, di balik pertumbuhan dan eksistensinya yang kuat, perusahaan menghadapi tantangan serius dalam aspek pengelolaan sumber daya manusia—khususnya terkait dengan tingkat attrition yang tinggi, yakni lebih dari 10%.
+Jaya Jaya Maju adalah perusahaan multinasional yang telah berdiri sejak tahun 2000 dan kini memiliki lebih dari seribu karyawan yang tersebar di berbagai wilayah Indonesia. Sebagai perusahaan yang sudah mapan, Jaya Jaya Maju memiliki struktur organisasi yang kompleks dan dinamis. Namun, di balik pertumbuhan dan eksistensinya yang kuat, perusahaan menghadapi tantangan serius dalam aspek pengelolaan sumber daya manusia. Khususnya terkait dengan tingkat attrition yang tinggi yakni lebih dari 10%.
 
 Attrition rate yang tinggi tidak hanya berdampak pada stabilitas operasional, tetapi juga dapat mempengaruhi efisiensi biaya, kontinuitas pengetahuan di dalam organisasi, serta moral karyawan yang tersisa. Untuk mengatasi isu ini secara lebih strategis, tim Human Resources (HR) merasa perlu memahami lebih dalam faktor-faktor apa saja yang mendorong keputusan karyawan untuk keluar dari perusahaan. Dengan kata lain, identifikasi penyebab utama attrition merupakan langkah krusial guna merancang kebijakan retensi yang lebih efektif.
 
