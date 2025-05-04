@@ -70,7 +70,7 @@ Sebagai bagian dari upaya memahami dan mengelola tingkat attrition, sebuah dashb
 Enam faktor utama yang dipilih (berdasarkan model Random Forest) menjadi fokus utama dalam visualisasi. Melalui grafik dan diagram, pengguna dapat melihat pola-pola seperti:
 1. Karyawan yang rutin lembur memiliki kecenderungan lebih tinggi untuk resign.
 2. Mereka yang berada pada level stock option atau job level yang rendah tampak lebih tidak puas dan lebih sering keluar.
-3. Tingkat kepuasan terhadap lingkungan dan pekerjaan menunjukkan hubungan yang cukup jelas dengan tingkat attrition.
+3. Karyawan yang merasa kurang puas terhadap lingkungan kerja maupun pekerjaannya cenderung lebih rentan untuk resign.
 4. Karyawan dengan pengalaman kerja yang masih rendah juga menunjukkan potensi lebih tinggi untuk berpindah ke perusahaan lain.
 
 Dashboard ini dirancang agar intuitif digunakan oleh manajer non-teknis, sehingga keputusan bisa diambil berdasarkan data yang mudah dicerna, bukan sekadar intuisi.
