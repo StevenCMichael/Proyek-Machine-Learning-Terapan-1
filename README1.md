@@ -75,7 +75,7 @@ Enam faktor utama yang dipilih (berdasarkan model Random Forest) menjadi fokus u
 
 Dashboard ini dirancang agar intuitif digunakan oleh manajer non-teknis, sehingga keputusan bisa diambil berdasarkan data yang mudah dicerna, bukan sekadar intuisi.
 
-[link dashboard](https://lookerstudio.google.com/reporting/42e15b8b-e2bb-4260-af7f-a523be4199cf)
+[link dashboard](https://lookerstudio.google.com/s/nySOftuM4F4)
 
 ## Conclusion
 
