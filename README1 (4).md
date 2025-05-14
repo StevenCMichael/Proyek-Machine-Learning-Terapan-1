@@ -2,40 +2,42 @@
 
 ## Business Understanding
 
-Jaya Jaya Maju adalah perusahaan multinasional yang telah berdiri sejak tahun 2000 dan kini memiliki lebih dari seribu karyawan yang tersebar di berbagai wilayah Indonesia. Sebagai perusahaan yang sudah mapan, Jaya Jaya Maju memiliki struktur organisasi yang kompleks dan dinamis. Namun, di balik pertumbuhan dan eksistensinya yang kuat, perusahaan menghadapi tantangan serius dalam aspek pengelolaan sumber daya manusia. Khususnya terkait dengan tingkat attrition yang tinggi yakni lebih dari 10%.
+Jaya Jaya Institut adalah sebuah institusi pendidikan tinggi yang telah berdiri sejak tahun 2000 dan dikenal luas karena kualitas lulusannya yang baik serta reputasinya yang kuat di dunia pendidikan. Selama bertahun-tahun, institusi ini telah berhasil melahirkan banyak alumni yang berprestasi dan berkontribusi nyata di masyarakat.
 
-Attrition rate yang tinggi tidak hanya berdampak pada stabilitas operasional, tetapi juga dapat mempengaruhi efisiensi biaya, kontinuitas pengetahuan di dalam organisasi, serta moral karyawan yang tersisa. Untuk mengatasi isu ini secara lebih strategis, tim Human Resources (HR) merasa perlu memahami lebih dalam faktor-faktor apa saja yang mendorong keputusan karyawan untuk keluar dari perusahaan. Dengan kata lain, identifikasi penyebab utama attrition merupakan langkah krusial guna merancang kebijakan retensi yang lebih efektif.
+Namun, di balik keberhasilan tersebut, terdapat satu tantangan serius yang tidak bisa diabaikan—tingginya angka mahasiswa yang mengalami dropout atau tidak menyelesaikan pendidikan mereka. Fenomena ini tentu menjadi perhatian penting, bukan hanya dari sisi reputasi akademik, tapi juga dari sisi tanggung jawab sosial institusi terhadap para peserta didik.
 
-Sebagai bagian dari upaya transformasi data-driven, HR Jaya Jaya Maju menginisiasi proyek analitik untuk mengolah data karyawan dan mengidentifikasi pola-pola yang dapat mengarah pada prediksi risiko attrition. Dalam konteks ini, teknologi seperti machine learning dan dashboard visual interaktif akan dimanfaatkan untuk mendukung pengambilan keputusan berbasis data (data-driven decision making).
+Untuk mengatasi tantangan ini secara lebih proaktif, Jaya Jaya Institut ingin mengadopsi pendekatan berbasis data. Dengan memanfaatkan teknologi machine learning, institusi berharap dapat memprediksi lebih awal siapa saja siswa yang berisiko tinggi mengalami dropout. Harapannya, siswa tersebut bisa segera diberikan pendampingan atau bimbingan yang tepat sebelum terlambat.ng).
 
 ### Permasalahan Bisnis
 
 Beberapa permasalahan bisnis yang ingin diselesaikan dalam proyek ini meliputi:
-1. Tingginya tingkat attrition karyawan (lebih dari 10%) yang dapat mengganggu stabilitas operasional perusahaan.
-2. Ketiadaan sistem atau alat analitik yang dapat membantu HR dalam memahami dan memantau faktor-faktor penyebab karyawan keluar.
-3. Kurangnya pemahaman berbasis data terkait karakteristik atau pola yang dimiliki karyawan yang cenderung resign.
-4. Tidak adanya mekanisme prediktif yang dapat membantu HR dalam mengidentifikasi risiko attrition lebih awal.
-5. Kebutuhan akan dashboard bisnis yang ringkas dan intuitif untuk memantau faktor-faktor utama penyebab attrition secara real-time.
+1. Tingginya tingkat dropout mahasiswa yang berdampak negatif pada reputasi institusi, efektivitas program akademik dan akreditasi perguruan tinggi secara keseluruhan.
+2. Ketiadaan sistem deteksi dini berbasis data yang dapat membantu institusi mengidentifikasi mahasiswa berisiko tinggi untuk keluar sebelum hal tersebut terjadi.
+3. Kurangnya alat visualisasi dan monitoring terpusat, sehingga tim akademik kesulitan melakukan pemantauan progres mahasiswa secara berkala dan mengambil tindakan intervensi secara sistematis.
 
 ### Cakupan Proyek
 
-Proyek ini dirancang untuk menjawab kebutuhan manajer HR dalam memetakan dan memprediksi risiko attrition karyawan menggunakan pendekatan machine learning. Ruang lingkupnya mencakup:
+Proyek ini berfokus pada pengembangan sistem prediksi dropout mahasiswa di Jaya Jaya Institut, dengan tujuan utama membantu pihak institusi dalam mengambil langkah preventif secara lebih dini dan terukur. Adapun cakupan utama yang akan dikerjakan meliputi:
 
-1. Analisis Data Historis Karyawan
-   
-Menggunakan data internal yang telah disediakan oleh perusahaan, proses ini akan membantu menemukan pola-pola yang tersembunyi terkait perilaku dan karakteristik karyawan yang keluar.
+1. Eksplorasi dan Pemahaman Data
 
-2. Pemodelan Prediktif
-   
-Mengembangkan model machine learning yang mampu memprediksi apakah seorang karyawan berisiko keluar atau tidak, berdasarkan enam variabel utama yang dipilih dari hasil evaluasi feature importance.
+Melakukan analisis awal terhadap dataset yang disediakan untuk memahami struktur, kualitas, dan pola data siswa.
 
-3. Pembuatan Business Dashboard
+2. Pemilihan Fitur Kunci
 
-Dashboard interaktif akan dikembangkan sebagai alat bantu visualisasi bagi tim HR untuk memonitor indikator-indikator utama secara real time. Tujuannya bukan hanya untuk melihat tren, tapi juga untuk mendeteksi potensi masalah sebelum terjadi.
+Mengidentifikasi empat variabel paling berpengaruh terhadap risiko dropout, menggunakan pendekatan feature importance dari model machine learning.
 
-4. Penyusunan Rekomendasi Strategis
+3. Pembangunan Model Prediktif
 
-Berdasarkan temuan model dan dashboard, proyek ini juga menyertakan rekomendasi konkret yang bisa diimplementasikan oleh perusahaan untuk meningkatkan retensi karyawan ke depannya.
+Membangun model machine learning yang mampu memprediksi kemungkinan seorang siswa akan dropout atau tidak, berdasarkan data historis yang tersedia.
+
+4. Pembuatan Dashboard Monitoring
+
+Mendesain dan mengimplementasikan dashboard interaktif yang menyajikan insight dari keempat faktor utama, agar pihak kampus dapat memantau dan menindaklanjuti risiko dropout secara efisien.
+
+5. Interpretasi dan Rekomendasi Strategis
+
+Memberikan penjelasan dan saran berbasis data kepada manajemen, guna mendukung upaya pembinaan dan retensi mahasiswa secara berkelanjutan.
 
 ### Persiapan
 
@@ -65,58 +67,54 @@ from imblearn.over_sampling import SMOTE
 
 ## Business Dashboard
 
-Sebagai bagian dari upaya memahami dan mengelola tingkat attrition, sebuah dashboard interaktif telah dikembangkan untuk membantu tim HR memantau berbagai faktor kunci secara visual dan real-time. Dashboard ini bukan hanya menampilkan data mentah, tetapi menyajikan cerita—tentang siapa yang cenderung bertahan, siapa yang berisiko pergi, dan mengapa itu terjadi.
+Dashboard yang dikembangkan dalam proyek ini bertujuan untuk membantu tim akademik Jaya Jaya Institut dalam mengidentifikasi mahasiswa yang berpotensi dropout secara lebih dini dan berbasis data. Dengan tampilan yang interaktif dan mudah dipahami, dashboard ini menyajikan hubungan antara empat variabel kunci dan status kelulusan mahasiswa (dropout atau graduate).
 
-Enam faktor utama yang dipilih (berdasarkan model Random Forest) menjadi fokus utama dalam visualisasi. Melalui grafik dan diagram, pengguna dapat melihat pola-pola seperti:
-1. Karyawan yang rutin lembur memiliki kecenderungan lebih tinggi untuk resign.
-2. Mereka yang berada pada level stock option atau job level yang rendah tampak lebih tidak puas dan lebih sering keluar.
-3. Karyawan yang merasa kurang puas terhadap lingkungan kerja maupun pekerjaannya cenderung lebih rentan untuk resign.
-4. Karyawan dengan pengalaman kerja yang masih rendah juga menunjukkan potensi lebih tinggi untuk berpindah ke perusahaan lain.
+Empat variabel yang divisualisasikan adalah:
 
-Dashboard ini dirancang agar intuitif digunakan oleh manajer non-teknis, sehingga keputusan bisa diambil berdasarkan data yang mudah dicerna, bukan sekadar intuisi.
+1. Curricular Units 1st Semester (Approved)
+
+Terlihat jelas bahwa mahasiswa yang menyelesaikan lebih sedikit mata kuliah pada semester pertama cenderung memiliki risiko dropout yang lebih tinggi. Semakin sedikit unit yang mereka selesaikan, semakin besar kemungkinan mereka tidak melanjutkan studi.
+
+2. Curricular Units 2nd Semester (Approved)
+
+Pola serupa terlihat di semester kedua. Mahasiswa dengan jumlah unit yang disetujui rendah pada semester ini juga memiliki kemungkinan besar untuk tidak menyelesaikan pendidikan mereka.
+
+3. Curricular Units 1st Semester (Grade)
+
+Dari sisi nilai, mahasiswa dropout menunjukkan distribusi nilai yang lebih rendah dan lebih bervariasi, dibandingkan dengan mahasiswa yang lulus, yang nilainya relatif lebih tinggi dan stabil.
+
+4. Curricular Units 2nd Semester (Grade)
+
+Nilai semester kedua juga menjadi indikator penting. Rata-rata nilai mahasiswa dropout cenderung lebih rendah dibandingkan dengan mereka yang berhasil lulus, dengan variasi yang juga lebih lebar.
+
+Dashboard ini memungkinkan pihak institusi untuk memantau keempat indikator ini secara berkala, sehingga mahasiswa yang menunjukkan gejala “risiko tinggi” dapat segera diberikan perhatian khusus, seperti bimbingan akademik, konseling atau intervensi personal lainnya.
+
+
 
 [link dashboard](https://lookerstudio.google.com/s/nySOftuM4F4)
 
 ## Conclusion
 
-Melalui analisis data dan pengembangan model prediktif, proyek ini berhasil mengidentifikasi faktor-faktor utama yang memengaruhi tingkat attrition karyawan di Jaya Jaya Maju. Dari berbagai algoritma yang diuji, model Random Forest menunjukkan performa terbaik. Meskipun selisihnya relatif kecil dibandingkan Gradient Boosting dan XGBoost. Random Forest unggul dalam hal akurasi, presisi, dan F1-Score. Serta menghasilkan jumlah false negative yang rendah, sebuah aspek penting dalam konteks prediksi attrition.
+Melalui analisis data dan pengembangan model prediktif, proyek ini berhasil mengungkap sejumlah pola penting yang berkaitan dengan fenomena dropout di Jaya Jaya Institut. Model Random Forest yang digunakan dalam proses ini menunjukkan performa terbaik dibandingkan model lain seperti Gradient Boosting dan XGBoost—meskipun selisihnya relatif tipis.
 
-Faktor-faktor yang paling berpengaruh terhadap attrition meliputi aspek lembur, level opsi saham, level pekerjaan, kepuasan terhadap lingkungan dan pekerjaan, serta total pengalaman kerja. Temuan ini diperkuat dengan visualisasi dalam dashboard, yang menunjukkan tren serupa yaitu karyawan dengan beban kerja berat, kepuasan rendah, dan pengalaman kerja yang sedikit lebih berisiko untuk resign.
+Random Forest unggul dalam hal akurasi, presisi, dan F1-Score, serta memiliki jumlah false negative yang lebih sedikit. Ini berarti model ini lebih andal dalam mengidentifikasi mahasiswa yang benar-benar berisiko dropout, sehingga intervensi bisa dilakukan dengan lebih tepat sasaran.
 
-Secara keseluruhan, proyek ini memberikan dasar analitis yang kuat bagi HR untuk memahami dan mengantisipasi attrition, serta merancang strategi retensi yang lebih efektif dan terukur. Pemanfaatan model prediksi dan dashboard visual memungkinkan pengambilan keputusan yang lebih cepat, proaktif dan berbasis data nyata.
+Secara keseluruhan, proyek ini memberikan fondasi berbasis data yang kuat untuk mendukung kebijakan retensi mahasiswa. Dengan menggabungkan kekuatan model prediktif dan visualisasi dashboard, Jaya Jaya Institut kini memiliki alat yang tidak hanya mampu memetakan risiko, tapi juga mendorong langkah-langkah preventif yang lebih manusiawi dan berdampak.
 
 ### Rekomendasi Action Items (Optional)
 
-Berikan beberapa rekomendasi action items yang harus dilakukan perusahaan guna menyelesaikan permasalahan atau mencapai target mereka.
-
 Berdasarkan hasil analisis dan dashboard yang telah dibuat, berikut beberapa langkah strategis yang bisa diambil Jaya Jaya Maju untuk menekan angka attrition dan menciptakan lingkungan kerja yang lebih sehat serta berkelanjutan:
 
-1. Tinjau dan Kelola Ulang Pola Lembur Karyawan
+1. Sistem Pemantauan Akademik Dini
 
-Salah satu temuan paling mencolok adalah tingginya tingkat attrition pada karyawan yang rutin bekerja lembur. Hal ini tidak hanya mengindikasikan ketidakseimbangan beban kerja, tapi juga potensi kelelahan mental. Perusahaan perlu:
-  - Membatasi jam lembur mingguan secara ketat.
-  - Memberikan cuti tambahan bagi karyawan yang secara konsisten lembur.
-  - Melakukan monitoring dan evaluasi berkala pada divisi dengan tingkat lembur tertinggi.
+Buat mekanisme otomatis untuk mengidentifikasi mahasiswa yang:
+- Menyelesaikan kurang dari 5 SKS di semester pertama atau kedua
+- Memiliki nilai rata-rata di bawah ambang batas tertentu (misalnya <12)
 
-2. Perbaiki Skema Kompensasi dan Penghargaan Karyawan Level Awal
+2. Program Pendampingan Spesifik untuk Mahasiswa Risiko Tinggi
 
-Karyawan dengan stock option level dan job level rendah cenderung merasa tidak cukup dihargai. Untuk mengatasi ini, perusahaan bisa:
-  - Menawarkan insentif non-finansial seperti pengakuan publik atau kesempatan pelatihan.
-  - Memberikan opsi saham atau bonus tahunan sebagai bentuk apresiasi kontribusi.
+Sediakan program pembimbingan atau mentoring yang diarahkan secara khusus untuk mahasiswa yang terdeteksi berisiko. Fokusnya bukan pada pendekatan general, tapi berbasis data: personalisasi intervensi berdasarkan profil performa akademik mereka.
 
-3. Tingkatkan Kepuasan terhadap Lingkungan dan Budaya Kerja
+3. Audit Beban dan Struktur Mata Kuliah Semester Awal
 
-Data menunjukkan bahwa lingkungan kerja yang kurang memuaskan menjadi salah satu pemicu utama attrition. Di luar faktor fisik, hal ini juga bisa mencerminkan budaya internal yang kurang suportif. Beberapa hal yang bisa dipertimbangkan:
-  - Lakukan audit lingkungan kerja secara menyeluruh (fisik maupun psikologis)..
-  - Bentuk tim budaya kerja yang bertugas menjaga semangat kolaboratif dan inklusif.
-
-4. Rancang Program Pengembangan Karier yang Jelas dan Terukur
-
-Karyawan, terutama yang masih di awal masa kerja, cenderung memiliki ekspektasi besar terhadap perkembangan karier. Ketika harapan ini tidak dikelola, mereka akan mudah tergoda untuk berpindah. Perusahaan sebaiknya:
-  - Merancang jalur karier yang transparan sejak proses onboarding.
-  - Menawarkan program mentoring bagi karyawan baru.
-  - Menyediakan akses pelatihan teknis dan soft skill berbasis kebutuhan individu.
-
-5. Lakukan Survei Kepuasan dan Exit Interview Secara Rutin
-
-Melakukan survei berkala dan exit interview akan membantu perusahaan memahami tren yang muncul dan melakukan intervensi lebih cepat.
+Karena dua semester pertama sangat menentukan, penting untuk mengevaluasi apakah beban kurikulum dan desain mata kuliah terlalu berat, terlalu teknis, atau kurang memberi ruang adaptasi. Perlu ada keseimbangan antara standar akademik dan kesiapan mahasiswa baru.
