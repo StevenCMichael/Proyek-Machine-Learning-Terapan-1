@@ -41,27 +41,25 @@ Berdasarkan temuan model dan dashboard, proyek ini juga menyertakan rekomendasi 
 
 Sumber data: [employee_data.csv](https://docs.google.com/spreadsheets/d/1HckF1BG0nwB1-E8VyyCY6xwRib2-KIlnA2LwmMrJ3Wc/edit?usp=sharing)
 
+Berisikan data pegawai. Berisikan 35 kolom dan 1470 baris
+
 Setup environment:
 
 ```
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-import plotly.express as px
-
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler, LabelEncoder, OneHotEncoder
-from sklearn.compose import ColumnTransformer
-from sklearn.pipeline import Pipeline
-
-from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
-from xgboost import XGBClassifier
-
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix, classification_report
-from sklearn.model_selection import GridSearchCV, cross_val_score
-from imblearn.over_sampling import SMOTE
+conda create --name main-ds python=3.9
+conda activate main-ds
+pip install -r requirements.txt
 ```
+
+Menginstall dependecy yang diperlukan
+
+```
+python prediction.py 
+```
+
+Melakukan prediksi  menggunakan model yang telah di latih
+
+
 
 ## Business Dashboard
 
