@@ -45,19 +45,21 @@ Berisikan data pegawai. Berisikan 35 kolom dan 1470 baris
 
 Setup environment:
 
-```
-conda create --name main-ds python=3.9
-conda activate main-ds
-pip install -r requirements.txt
-```
-
 Menginstall dependecy yang diperlukan
 
 ```
-python prediction.py 
+conda create --name newenv python=3.11
+conda activate newenv
+pip install -r requirements.txt
 ```
 
-Melakukan prediksi  menggunakan model yang telah di latih
+Melakukan prediksi
+
+```
+python predict.py 
+```
+
+
 
 
 
