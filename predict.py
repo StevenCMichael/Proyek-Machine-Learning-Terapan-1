@@ -89,9 +89,7 @@ def predict_employee_attrition(data_df: pd.DataFrame):
     if not preprocessed_data.columns.equals(pd.Index(feature_columns)):
         print("Error: Input data columns after preprocessing do not match model training features.")
         print("Expected columns:", feature_columns)
-        print("Input columns after preprocessing:", preprocessed_data.columns.tolist())
-        # It might be useful to also save the misaligned dataframe for debugging
-        # preprocessed_data.to_csv('debug_preprocessed_data.csv', index=False)
+        print("Input columns after preprocessing:", preprocessed_data.columns.tolist()
         sys.exit(1) # Exit if columns don't match
 
     # Make prediction using the loaded model
@@ -133,7 +131,7 @@ if __name__ == "__main__":
        'MonthlyIncome': [2991],
        'MonthlyRate': [5224],
        'NumCompaniesWorked': [0],
-       'OverTime': ['Yes'], # Use 'Yes'/'No' as in your original data before one-hot encoding
+       'OverTime': ['Yes'], 
        'PercentSalaryHike': [11],
        'PerformanceRating': [3],
        'RelationshipSatisfaction': [2],
@@ -153,8 +151,3 @@ if __name__ == "__main__":
     # Run the prediction
     print("--- Running Prediction on Example Data ---")
     predict_employee_attrition(example_df)
-
-    # You can add more example dataframes to test
-    # example_df_2 = pd.DataFrame({ ... })
-    # print("\n--- Running Prediction on Another Example ---")
-    # predict_employee_attrition(example_df_2)
