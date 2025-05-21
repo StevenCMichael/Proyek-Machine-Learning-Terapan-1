@@ -14,8 +14,8 @@ except Exception as e:
     st.error(f"Error inisialisasi model atau scaler: {e}")
     st.stop()
 
-st.title("Klasifikasi Deteksi Potensi Dropout Siswa")
-st.write("Sistem ini bertujuan untuk mendeteksi secepat mungkin siswa yang mungkin akan melakukan dropout sehingga dapat diberi bimbingan khusus pada Jaya Jaya Institut")
+st.title("Identifikasi Dini Risiko Mahasiswa Dropout")
+st.write("Platform interaktif ini dirancang untuk membantu manajemen dan staf akademik Jaya Jaya Institut dalam mengidentifikasi mahasiswa yang memiliki potensi risiko untuk tidak melanjutkan studi (dropout) secara dini. Dengan memanfaatkan model prediktif berbasis data, sistem ini memungkinkan untuk mendukung keberhasilan studi mahasiswa")
 
 # Menentukan rentang nilai untuk input numerik
 min_value_generic = 0 
