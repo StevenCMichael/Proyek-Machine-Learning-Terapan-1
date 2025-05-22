@@ -88,9 +88,9 @@ Dashboard ini memungkinkan pihak institusi untuk memantau keempat indikator ini 
 
 ## Conclusion
 
-Melalui analisis data dan pengembangan model prediktif, proyek ini berhasil mengungkap sejumlah pola penting yang berkaitan dengan fenomena dropout di Jaya Jaya Institut. Model Random Forest yang digunakan dalam proses ini menunjukkan performa terbaik dibandingkan model lain seperti Gradient Boosting dan XGBoost—meskipun selisihnya relatif tipis.
+Melalui analisis data dan pengembangan model prediktif, proyek ini berhasil mengungkap sejumlah pola penting yang berkaitan dengan fenomena dropout di Jaya Jaya Institut. Model XGBoost yang digunakan dalam proses ini menunjukkan performa terbaik dibandingkan model lain seperti Random Forest dan Gradient Boosting meskipun selisihnya relatif tipis.
 
-Random Forest unggul dalam hal akurasi, presisi, dan F1-Score, serta memiliki jumlah false negative yang lebih sedikit. Ini berarti model ini lebih andal dalam mengidentifikasi mahasiswa yang benar-benar berisiko dropout, sehingga intervensi bisa dilakukan dengan lebih tepat sasaran.
+XGBoost unggul dalam hal akurasi, presisi dan F1-Score, serta memiliki jumlah false negative yang lebih sedikit. Ini berarti model ini lebih andal dalam mengidentifikasi mahasiswa yang benar-benar berisiko dropout, sehingga intervensi bisa dilakukan dengan lebih tepat sasaran.
 
 Secara keseluruhan, proyek ini memberikan fondasi berbasis data yang kuat untuk mendukung kebijakan retensi mahasiswa. Dengan menggabungkan kekuatan model prediktif dan visualisasi dashboard, Jaya Jaya Institut kini memiliki alat yang tidak hanya mampu memetakan risiko, tapi juga mendorong langkah-langkah preventif yang lebih manusiawi dan berdampak.
 
