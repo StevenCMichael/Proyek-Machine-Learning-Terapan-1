@@ -45,24 +45,15 @@ Sumber data: [employee_data.csv](https://docs.google.com/spreadsheets/d/1HckF1BG
 
 Setup environment:
 
+Menginstall library yang diperlukan
+
 ```
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-import plotly.express as px
+pip install -r requirements.txt
+```
 
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler, LabelEncoder, OneHotEncoder
-from sklearn.compose import ColumnTransformer
-from sklearn.pipeline import Pipeline
-
-from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
-from xgboost import XGBClassifier
-
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix, classification_report
-from sklearn.model_selection import GridSearchCV, cross_val_score
-from imblearn.over_sampling import SMOTE
+Menjalankan app.py
+```
+streamlit run app.py
 ```
 
 ## Business Dashboard
@@ -93,6 +84,8 @@ Dashboard ini memungkinkan pihak institusi untuk memantau keempat indikator ini 
 
 [link dashboard](https://lookerstudio.google.com/s/nySOftuM4F4)
 
+[link streamlit](https://proyek-machine-learning-terapan-1-rzs7r3ink57xerr7xrfzjf.streamlit.app/)
+
 ## Conclusion
 
 Melalui analisis data dan pengembangan model prediktif, proyek ini berhasil mengungkap sejumlah pola penting yang berkaitan dengan fenomena dropout di Jaya Jaya Institut. Model Random Forest yang digunakan dalam proses ini menunjukkan performa terbaik dibandingkan model lain seperti Gradient Boosting dan XGBoost—meskipun selisihnya relatif tipis.
@@ -118,3 +111,7 @@ Sediakan program pembimbingan atau mentoring yang diarahkan secara khusus untuk 
 3. Audit Beban dan Struktur Mata Kuliah Semester Awal
 
 Karena dua semester pertama sangat menentukan, penting untuk mengevaluasi apakah beban kurikulum dan desain mata kuliah terlalu berat, terlalu teknis, atau kurang memberi ruang adaptasi. Perlu ada keseimbangan antara standar akademik dan kesiapan mahasiswa baru.
+
+4. Memakai dashboard sebagai alat bantu pemantauan mahasiswa
+
+5. Menggunakan model atau streamlit untuk memprediksi kemungkinan dropout
