@@ -82,7 +82,7 @@ Dashboard ini memungkinkan pihak institusi untuk memantau keempat indikator ini 
 
 
 
-[link dashboard](https://lookerstudio.google.com/s/nySOftuM4F4)
+[link dashboard]([https://lookerstudio.google.com/s/nySOftuM4F4](https://lookerstudio.google.com/reporting/eb6d2270-f79a-4da1-bf46-47d20f87b6f5))
 
 [link streamlit](https://proyek-machine-learning-terapan-1-rzs7r3ink57xerr7xrfzjf.streamlit.app/)
 
