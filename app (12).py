@@ -120,16 +120,13 @@ with st.container(border=True):
             st.stop()
 
 
-        # Mengubah probabilitas menjadi persentase
-        predict_proba_percentage = [round(x*100, 2) for x in predict_proba]
         # Menentukan label kelas (0: Dropout, 1: Graduate)
         labels = ['Dropout', 'Graduate']
 
-        probability_metrics = pd.DataFrame(
-            {"Kelas": labels, "Probabilitas": predict_proba_percentage}, columns=["Kelas", "Probabilitas"])
+
+        # Dapatkan kelas yang diprediksi (ini sudah tersedia di predicted_class)
+        predicted_label = labels[predicted_class]
 
         # Menampilkan Hasil Prediksi
         st.subheader("Hasil Prediksi")
-        st.write(f"Status diprediksi: **{labels[predicted_class]}**")
-        st.write("Probabilitas Setiap Kelas :")
-        st.table(probability_metrics)
+        st.write(f"Status diprediksi: **{predicted_label}**")
