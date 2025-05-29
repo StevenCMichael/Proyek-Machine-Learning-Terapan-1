@@ -88,15 +88,25 @@ Dashboard ini memungkinkan pihak institusi untuk memantau keempat indikator ini 
 
 ## Conclusion
 
-Melalui analisis data dan pengembangan model prediktif, proyek ini berhasil mengungkap sejumlah pola penting yang berkaitan dengan fenomena dropout di Jaya Jaya Institut. Model XGBoost yang digunakan dalam proses ini menunjukkan performa terbaik dibandingkan model lain seperti Random Forest dan Gradient Boosting meskipun selisihnya relatif tipis.
+Berdasarkan hasil analisis dan model prediksi yang telah dibangun, proyek ini berhasil mengidentifikasi karakteristik umum siswa yang memiliki kecenderungan tinggi untuk mengalami dropout di Jaya Jaya Institut. Temuan ini tidak hanya penting secara teknis, tetapi juga relevan secara strategis dalam membantu institusi mengambil langkah preventif berbasis data.
 
-XGBoost unggul dalam hal akurasi, presisi dan F1-Score, serta memiliki jumlah false negative yang lebih sedikit. Ini berarti model ini lebih andal dalam mengidentifikasi mahasiswa yang benar-benar berisiko dropout, sehingga intervensi bisa dilakukan dengan lebih tepat sasaran.
+Adapun pola umum yang ditemukan pada mahasiswa berisiko tinggi dropout adalah sebagai berikut:
 
-Secara keseluruhan, proyek ini memberikan fondasi berbasis data yang kuat untuk mendukung kebijakan retensi mahasiswa. Dengan menggabungkan kekuatan model prediktif dan visualisasi dashboard, Jaya Jaya Institut kini memiliki alat yang tidak hanya mampu memetakan risiko, tapi juga mendorong langkah-langkah preventif yang lebih manusiawi dan berdampak.
+1. Rendahnya jumlah mata kuliah yang diselesaikan (approved) pada semester pertama dan kedua.
 
-### Rekomendasi Action Items (Optional)
+Siswa yang dropout umumnya hanya menyelesaikan 0–4 unit per semester, jauh lebih sedikit dibandingkan siswa yang lulus, yang biasanya menyelesaikan 5–8 unit.
 
-Berdasarkan hasil analisis dan dashboard yang telah dibuat, berikut beberapa langkah strategis yang bisa diambil Jaya Jaya Maju untuk menekan angka attrition dan menciptakan lingkungan kerja yang lebih sehat serta berkelanjutan:
+2. Nilai akademik yang rendah dan tidak stabil pada dua semester awal.
+
+Rata-rata nilai siswa dropout berkisar di bawah 12, dengan rentang yang sangat lebar dan cenderung menurun dari semester pertama ke semester kedua. Hal ini menunjukkan adanya tantangan akademik sejak awal masa studi.
+
+3. Tren menurun dari semester ke semester, baik dari sisi beban studi yang diselesaikan maupun performa nilai.
+
+Mahasiswa yang gagal mempertahankan performa akademiknya di awal perkuliahan tampak memiliki risiko yang signifikan untuk tidak melanjutkan.
+
+Model prediksi Random Forest yang digunakan dalam proyek ini menunjukkan performa terbaik dalam mengidentifikasi siswa dropout dengan tingkat akurasi dan presisi tinggi serta jumlah false negative yang rendah. Ini memungkinkan institusi untuk mengenali risiko lebih awal, bahkan sebelum dampaknya terlihat nyata. Dengan demikian, proyek ini tidak hanya menjawab permasalahan utama yang dihadapi institusi yaitu tingginya angka dropout tetapi juga menyajikan solusi berbasis data yang dapat ditindaklanjuti. Temuan ini menjadi dasar penting untuk membangun sistem pemantauan performa mahasiswa secara berkala dan intervensi dini yang lebih tepat sasaran.
+
+Rekomendasi
 
 1. Sistem Pemantauan Akademik Dini
 
